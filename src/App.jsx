@@ -705,7 +705,7 @@ function RecipeForm({ initial, onSave, onClose }) {
     });
   };
 
-  const fieldStyle = { width: "100%", padding: "8px 10px", border: "1px solid #ddd", borderRadius: "2px", fontFamily: "'Georgia', serif", fontSize: "14px", background: "#fff", boxSizing: "border-box" };
+  const fieldStyle = { width: "100%", padding: "8px 10px", border: "1px solid #ddd", borderRadius: "2px", fontFamily: "'Georgia', serif", fontSize: "14px", background: "#fff", boxSizing: "border-box", color: "#666" };
   const labelStyle = { fontSize: "11px", letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "sans-serif", color: "#888", display: "block", marginBottom: "4px" };
 
   return (
